@@ -6,10 +6,19 @@ Author: Yijia Li, ..
 CosTaL use pL2knng to map k nearest neighbors and construct a kNN graph, which is later pruned using Tanimoto coefficient for a better restoration of the original similarity relationships among the cells inside the high-dimensional single-cell dataset.
 
 CosTaL is still under development in support of all platforms. Right now, the implementation of pL2knng is only supporting the Linux system. The kNN maping on Mac and Windows platforms is temporarily using the UMAP method.
-***
-#### Setup
-> find 
-***
+
 
 ***
+#### Install
+```
+pip install CosTaL
+```
+***
+#### Basic usage
+```
+import CosTaL as ct
 
+clusters = ct.clustering(data, method = 'mass', nbr_num = 10)
+```
+
+***
