@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CosTaL
+Version: 0.0.2.1
+Summary: An accurate and scalable graph-based clustering algorithm for high-dimensional single-cell data analysis
+Home-page: https://github.com/li000678/CosTaL
+Author: Yijia Li
+Author-email: li000678@umn.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,8 @@
+numpy
+pandas
+igraph
+leidenalg
+numba
+scipy
+sklearn
+phenograph
