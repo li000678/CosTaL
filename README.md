@@ -4,7 +4,7 @@
 ## Introduction
 CosTaL use p-L2knng to map k nearest neighbors and construct a kNN graph, which is later refined using Tanimoto coefficient for a better restoration of the original similarity relationships among the cells inside the high-dimensional single-cell dataset.
 
-CosTaL is still under development in support of all platforms. Right now, the implementation of p-L2knng is only supporting the Linux system using executable, which may generate temproary files as input and output for p-L2knng (remember to get them removed if there is a problem happend during the executation, the name is the automatically-generated UUID as a 32-character lowercase hexadecimal string, unless specificed). The kNN maping on Mac and Windows platforms is temporarily using the brute force mapping borrowed from [PhneoGraph](https://github.com/dpeerlab/PhenoGraph/blob/master/phenograph/bruteforce_nn.py).
+CosTaL is still under development in support of all platforms. Right now, the implementation of p-L2knng is only supporting the Linux system using executable, which may generate temproary files as input and output for p-L2knng (remember to get them removed if there is a problem happend during the executation, the name is the automatically-generated UUID as a 32-character lowercase hexadecimal string, unless specificed). The kNN maping on Mac and Windows platforms is temporarily using the brute force mapping borrowed from [PhenoGraph](https://github.com/dpeerlab/PhenoGraph/blob/master/phenograph/bruteforce_nn.py).
 
 
 ***
@@ -32,7 +32,7 @@ Yijia Li: li000678@umn.edu
 ## Other information
 
 * Liscense
->This project is licensed under the [MIT] License - see the LICENSE.md file for details
+>This project is licensed under the [MIT] License - see the LICENSE file for details
 * Developemnt status:
 >Alpha
 
