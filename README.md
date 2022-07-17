@@ -19,6 +19,8 @@ pip install CosTaL
 import CosTaL as ct
 
 clusters = ct.clustering(data, method = 'mass', nbr_num = 10)
+# data: scipy.sparse matrices, numpy.ndarray, pandas.DataFrame
+# method: {None: 'No preprocessing', 'mass': 'Arcsinh5 transformation', 'flow': 'Arcsinh150 transformation', 'spectral flow': 'Arcsinh6000 transformation', 'scrnaseq': 'Scanpy method, see the code for details'}
 ```
 #### Tanimoto coefficient + [UMAP connectivity (affinity)](https://umap-learn.readthedocs.io/en/latest/index.html) doubly-refined clustering
 ```
@@ -37,6 +39,8 @@ Yijia Li: li000678@umn.edu
 >Alpha
 
 ## References
-[1] Anastasiu D C, Karypis G. L2knng: Fast exact k-nearest neighbor graph construction with l2-norm pruning[C]//Proceedings of the 24th ACM International on Conference on Information and Knowledge Management. 2015: 791-800.
+[1] Anastasiu, David C., and George Karypis. "L2knng: Fast exact k-nearest neighbor graph construction with l2-norm pruning." Proceedings of the 24th ACM International on Conference on Information and Knowledge Management. 2015.
 
-[2] McInnes L, Healy J, Melville J. Umap: Uniform manifold approximation and projection for dimension reduction[J]. arXiv preprint arXiv:1802.03426, 2018.
+[2] McInnes, Leland, John Healy, and James Melville. "Umap: Uniform manifold approximation and projection for dimension reduction." arXiv preprint arXiv:1802.03426 (2018).
+
+[3] Wolf, F. Alexander, Philipp Angerer, and Fabian J. Theis. "SCANPY: large-scale single-cell gene expression data analysis." Genome biology 19.1 (2018): 1-5.
