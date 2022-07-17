@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='CosTaL',
-    version='0.0.2.1',
+    version='0.0.2.4',
     url='https://github.com/li000678/CosTaL',
     license='MIT',
     author='Yijia Li',

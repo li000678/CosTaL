@@ -3,6 +3,7 @@ README.md
 setup.py
 CosTaL/__init__.py
 CosTaL/clustering.py
+CosTaL/descriptions.py
 CosTaL/p_knng_Linux
 CosTaL.egg-info/PKG-INFO
 CosTaL.egg-info/SOURCES.txt

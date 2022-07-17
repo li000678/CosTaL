@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: CosTaL
-Version: 0.0.2.1
+Version: 0.0.2.4
 Summary: An accurate and scalable graph-based clustering algorithm for high-dimensional single-cell data analysis
 Home-page: https://github.com/li000678/CosTaL
 Author: Yijia Li

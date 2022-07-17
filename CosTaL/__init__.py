@@ -4,3 +4,4 @@
 # Author: Yijia Li
 
 from CosTaL.clustering import *
+from CosTaL.descriptions import *

@@ -27,6 +27,7 @@ clusters = ct.clustering(data, method = 'mass', nbr_num = 10)
 
 > nbr_num: k for kNN
 #### Tanimoto coefficient + [UMAP connectivity (affinity)](https://umap-learn.readthedocs.io/en/latest/index.html) doubly-refined clustering
+This gives the clustering a slightly better accuracy while requires more time to be executed.
 ```
 clusters = ct.clustering(data, method = 'mass', nbr_num = 10, local = True)
 ```
