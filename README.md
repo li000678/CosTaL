@@ -22,7 +22,9 @@ import CosTaL as ct
 clusters = ct.clustering(data, method = 'mass', nbr_num = 10)
 ```
 > data: scipy.sparse matrices, numpy.ndarray, pandas.DataFrame
+
 > method: {None: 'No preprocessing', 'mass': 'Arcsinh5 transformation', 'flow': 'Arcsinh150 transformation', 'spectral flow': 'Arcsinh6000 transformation', 'scrnaseq': 'Scanpy method, see the code for details'}
+
 > nbr_num: k for kNN
 #### Tanimoto coefficient + [UMAP connectivity (affinity)](https://umap-learn.readthedocs.io/en/latest/index.html) doubly-refined clustering
 ```
