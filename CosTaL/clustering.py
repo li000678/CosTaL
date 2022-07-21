@@ -469,8 +469,8 @@ def map_jaccard(idx):
 def bc(X, nbr_num = 10, seed = None, metric = "cosine", local = False, method = 'tani', pp_method = None, **kwargs):
     X = pp(X, platform = pp_method)
     k = nbr_num
-    d, idx = bruteforce_nn.knnsearch(X, k + 1, metric)
-    idx = idx[:,1:]
+    d, idx = bruteforce_nn.knnsearch(X, k , metric)
+    #idx = idx[:,1:]
     shape = idx.shape
     rows = list(itertools.chain.from_iterable(itertools.repeat(i, shape[1]) for i in range(shape[0])))
     columns = list(itertools.chain.from_iterable(idx))
